@@ -5,7 +5,15 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <audio src="00.mp3" controls preload></audio>
+  <!--
+    <audio src="00.mp3"></audio>
+  //-->
+    <audio src="jonathan-mann-i-wont-lock-it-down.mp3" controls preload></audio>
+    <button id="backButton">-10</button>
+    <button id="playButton">再生</button>
+    <button id="pauseButton">一時停止</button>
+    <button id="skipButton">+10</button>
+    <input id="volumeControl" type="range" min="0" max="100" step="5">
     <script src="app.js"></script>
   </body>
 </html>
